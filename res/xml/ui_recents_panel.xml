@@ -31,4 +31,13 @@
         android:entries="@array/clear_recents_entries"
         android:entryValues="@array/clear_recents_values" />
 
+	<header
+        android:title="@string/omniswitch"
+        android:icon="@drawable/ic_launcher" >
+	<intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="org.omnirom.omniswitch.SwitchService"
+            android:targetPackage="org.omnirom.omniswitch" />
+       </header>
+
 </PreferenceScreen>

@@ -33,6 +33,9 @@
     <!-- Header Summaries -->
     <string name="header_summary">@null</string>
 
+    <!-- OmniSwitch -->
+    <string name="omniswitch">OmniSwitch</string>
+
     <!-- Menu Strings -->
     <string name="menu_main_activity_change_locale">Locale</string>
 
